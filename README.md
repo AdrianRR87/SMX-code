@@ -5,7 +5,8 @@ Calibration procedure steps:
 1. Scan of the VrefP, N, and Thr2_glb parameters in the selected range of amplitudes defined by
      - amp_cal_min
      - amp_cal_max
-  The scan is made for only one channel. Since there is a fundamental difference between odd and even channels, a way to optimize this process can be by making the scan of an odd and an even channel, and averaging between the found settings.
+       
+The scan is made for only one channel. Since there is a fundamental difference between odd and even channels, a way to optimize this process can be by making the scan of an odd and an even channel, and averaging between the found settings.
 2. The values of VrefP, N, and Thr2_glb found should be written in the corresponding ASIC registers
 3. Calibration of the ADC in the desired range
    
